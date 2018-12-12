@@ -21,6 +21,7 @@ int main()
     int Mystaff_Num;
     string Mystaff_ID;
     int Course_Num;
+    int num_st;
 
     Student Eastman;
 
@@ -64,10 +65,12 @@ int main()
         {
         case 1:
             {
-                cout << "Enter the number of students: ";
-            cin >> Student_X;
 
-            Eastman.addStudent(Student_X);
+                cout << "Enter the number of students: ";
+                cin >> num_st;
+
+
+            Eastman.addStudent(Student_X,num_st);
             }
             break;
 
@@ -161,10 +164,13 @@ int main()
         {
         case 1:
             {
+
+                cout << "Enter the number of students: ";
+                cin >> num_st;
                 cout << "Enter Student ID: ";
                 cin >> My_ID;
 
-               NanaSarfo.assign_course(My_ID);
+               NanaSarfo.assign_course(My_ID,num_st);
             }
             break;
         case 2:

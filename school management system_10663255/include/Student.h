@@ -26,7 +26,7 @@ class Student
 
 
 
-        void addStudent(int Numb);
+        void addStudent(int Numb,int stnum);
         void deleteStudent(string STD_ID);
         void editStudent(string STD_ID);
         void showStudent(int Numb);

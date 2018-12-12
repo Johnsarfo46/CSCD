@@ -24,7 +24,7 @@ class Lecturer
 
         // Functions
         void student_mark(int course_num);
-        void assign_course(string student_id);
+        void assign_course(string student_id,int my_num);
 
 
     protected:

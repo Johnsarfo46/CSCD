@@ -40,3 +40,44 @@
 	<iostream>
 	<string>
 
+1544593740 source:c:\users\doc.tea\documents\github\cscd\project_001\main.cpp
+	<iostream>
+	<string>
+	<fstream>
+	<cstdlib>
+	"Student.h"
+	"Admin.h"
+	"Lecturer.h"
+
+1544593711 c:\users\doc.tea\documents\github\cscd\project_001\include\student.h
+	<iostream>
+	<string>
+
+1544541278 c:\users\doc.tea\documents\github\cscd\project_001\include\admin.h
+	<iostream>
+	<string>
+
+1544593610 c:\users\doc.tea\documents\github\cscd\project_001\include\lecturer.h
+	<iostream>
+	<string>
+	"Student.h"
+
+1544512694 source:c:\users\doc.tea\documents\github\cscd\project_001\src\admin.cpp
+	"Admin.h"
+	"Student.h"
+	<iostream>
+	<string>
+
+1544593610 source:c:\users\doc.tea\documents\github\cscd\project_001\src\lecturer.cpp
+	"Lecturer.h"
+	"Student.h"
+	<iostream>
+	<string>
+
+1544593760 source:c:\users\doc.tea\documents\github\cscd\project_001\src\student.cpp
+	"Student.h"
+	<iostream>
+	<string>
+	<fstream>
+	<cstdlib>
+

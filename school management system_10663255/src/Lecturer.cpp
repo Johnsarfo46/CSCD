@@ -18,10 +18,10 @@ void Lecturer::student_mark(int course_num)
     cout << endl;
 }
 
-void Lecturer::assign_course(string student_id)
+void Lecturer::assign_course(string student_id,int my_num)
 {
 
-    for (int i=0;i< student_num;i++)
+    for (int i=0;i< my_num;i++)
     {
 
         cout << student_course[i];

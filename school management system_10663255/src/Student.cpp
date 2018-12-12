@@ -8,11 +8,11 @@ using namespace std;
 
 
 
-void Student:: addStudent(int Numb)
+void Student:: addStudent(int Numb,int stnum)
 {
-    Numb = S_Num;
 
-    for (int i=0;i < Numb; i++)
+
+    for (int i=0;i < stnum; i++)
     {
         cout << " Enter your full name: ";
         cin >> S_Name[i];
@@ -40,7 +40,7 @@ void Student::editStudent(string STD_ID)
             continue;
         }
 
-        addStudent(i);
+        addStudent(i,S_Num);
 
     }
 }
